@@ -9,7 +9,7 @@
 namespace fs = boost::filesystem;
 
 int main(int argc, char* argv[]) {
-    //basho, see https://github.com/hw-dwalter/leveldb/blob/develop/README#L42
+    //basho, see https://github.com/basho/leveldb/blob/2.0.36/README#L42
     leveldb::Options options;
 
     options.filter_policy = leveldb::NewBloomFilterPolicy2(16);

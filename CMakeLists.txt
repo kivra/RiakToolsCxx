@@ -25,8 +25,8 @@ project(RiakToolsCxx)
 
 ExternalProject_Add(leveldb-basho
 	PREFIX external
-        GIT_REPOSITORY https://github.com/hw-dwalter/leveldb.git
-	GIT_TAG develop
+        GIT_REPOSITORY https://github.com/basho/leveldb.git
+	GIT_TAG 2.0.36
         BUILD_IN_SOURCE 1
         BUILD_COMMAND make 
         UPDATE_COMMAND ""
