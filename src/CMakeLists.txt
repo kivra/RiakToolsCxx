@@ -2,7 +2,7 @@ file(GLOB SOURCES "*.cpp")
 add_executable(riakcompact ${SOURCES})
 
 target_link_libraries(riakcompact libleveldb
-  -lpthread -lz
+  -lpthread -lz -lsnappy
   ${Boost_LIBRARIES}
 )
 
