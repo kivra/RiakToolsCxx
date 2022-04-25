@@ -5,6 +5,7 @@
 - `gcc`
 - `gcc-c++`
 - `make`
+- `cmake` >= 3.0
 - `openssl-devel`
 - `boost-devel`
 - `snappy-devel`
