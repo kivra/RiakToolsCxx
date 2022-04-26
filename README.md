@@ -21,7 +21,7 @@ cmake ..
 make
 ```
 
-To confirm that `snappy` has been statically-linked to the `riakcomapct` binary, you can
+To confirm that `snappy` has been linked to the `riakcomapct` binary, you can
 run the following command.
 
 ```
