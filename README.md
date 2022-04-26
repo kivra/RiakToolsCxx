@@ -40,3 +40,11 @@ libsnappy.so.1 => /lib64/libsnappy.so.1 (0x00007f0f41ba1000)
 ```
 ./riakcompact /var/lib/riak/leveldb/<vnode>`
 ```
+
+or, alternatively
+
+```
+docker run --rm -it \
+  -v /var/lib/riak/leveldb:/var/lib/riak/leveldb \
+  ghcr.io/kivra/riakcompact /var/lib/riak/leveldb/<vnode>
+```
